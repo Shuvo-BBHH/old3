@@ -77,7 +77,7 @@ if pil in ["01","1"]:
 		    os.system('pkg install python2 -y')
                    
                     
-                    main()
+                   
 	
 elif pil in ["02","2"]:
                      os.system('rm -rf FLAME-2K9')
