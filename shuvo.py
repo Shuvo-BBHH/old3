@@ -72,7 +72,7 @@ print("""
 \033[0;33m[12]CLONE FROM 2009-2010
 """)
 pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
-            if pil in ["01","1"]:
+ if pil in ["01","1"]:
 		 os.system('pkg install python2 -y')
         os.system('pip2 install NHClone')
         os.system('NH-Clone')
