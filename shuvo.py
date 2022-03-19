@@ -72,7 +72,8 @@ print("""
 \033[0;33m[12]CLONE FROM 2009-2010
 """)
 pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
- if pil in ["01","1"]:
+
+if pil in ["01","1"]:
 		 os.system('pkg install python2 -y')
         os.system('pip2 install NHClone')
         os.system('NH-Clone')
@@ -86,14 +87,14 @@ elif pil in ["02","2"]:
           main()
 		
 elif pil in ["02","2"]:
-	    os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
-		os.system('cd mr.unnone')
-		os.system('python2 BD11.py')
+	            os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
+		    os.system('cd mr.unnone')
+		    os.system('python2 BD11.py')
 elif pil in ["03","3"]:
-	print('Username = Mahadi  Password - Hasan')
-	 os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
-		os.system('cd bdcluner11')
-		os.system('python2 mahdi11.py')
+print('Username = Mahadi  Password - Hasan')
+	          os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
+		  os.system('cd bdcluner11')
+		  os.system('python2 mahdi11.py')
 		
 elif pil in ["04","4"]:	
 	
