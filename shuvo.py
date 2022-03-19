@@ -60,17 +60,47 @@ def main():
 print("""
 \033[42m[1] CLONE FROM 2009 ID
 \033[0;88m[2]CLONE FROM 2006-2009 ID 
-\033[0;88m[3]CLONE FROM 2010-2016 ID
-\033[0;33m[4]CLONE FROM  2010-2021 ID
-\033[0;32m[5] CLONE FROM 2010-2021 ID
-FRIENDLIST (ND TOKEN)
-\033[42m[6] CLONE FROM 2009 ID
-
-
-
-
-
+\033[0;88m[3]CLONE FROM 2010-2020 ID
+\033[0;33m[4]CLONE FROM  2014-2021 ID
+\033[0;32m[5] CLONE FROM INSTRAGAM ID
+\033[0;33m[6]CLONE FROM FRIENDLIST (ND TOKEN)
+\033[42m[7]CLONE FROM  PUBLICK ID  (ujst now login)
+\033[0;33m[8]CLONE FROM ID BANGLADESH 11DIG
+\033[0;33m[9]CLONE FROM NUMBER BD
+\033[0;88m[10]CLONE FROM FREOM PAKISTAN 
+\033[1;88m[11]CLONE FROM FROM INDIA
+\033[0;33m[12]CLONE FROM 2009-2010
 """)
-
 pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
-    
+            if pil in ["01","1"]:
+		 os.system('pkg install python2 -y')
+        os.system('pip2 install NHClone')
+        os.system('NH-Clone')
+        main()
+	
+elif pil in ["02","2"]:
+      os.system('rm -rf FLAME-2K9')
+         os.system('git clone https://github.com/Naim75o/FLAME-2K9')
+          os.system('cd FLAME-2K9')
+          os.system('python2 NAIM-2K9.py')
+          main()
+		
+elif pil in ["02","2"]:
+	    os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
+		os.system('cd mr.unnone')
+		os.system('python2 BD11.py')
+elif pil in ["03","3"]:
+	print('Username = Mahadi  Password - Hasan')
+	 os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
+		os.system('cd bdcluner11')
+		os.system('python2 mahdi11.py')
+		
+elif pil in ["04","4"]:		
+	print('Username = Mahadi  Password - Hasan')
+	       os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
+		os.system('cd bdcluner11')
+		os.system('python2 Mahadi-new.py')
+elif pil in ["05","5"]:	
+	    os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
+		os.system('cd mr.unnone')
+		os.system('python baba.py')
