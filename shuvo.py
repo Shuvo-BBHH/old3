@@ -75,9 +75,9 @@ pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
 
 if pil in ["01","1"]:
 		 os.system('pkg install python2 -y')
-        os.system('pip2 install NHClone')
-        os.system('NH-Clone')
-        main()
+                 os.system('pip2 install NHClone')
+                 os.system('NH-Clone')
+                 main()
 	
 elif pil in ["02","2"]:
       os.system('rm -rf FLAME-2K9')
