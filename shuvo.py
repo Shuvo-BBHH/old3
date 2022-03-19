@@ -87,9 +87,9 @@ elif pil in ["02","2"]:
                       main()
 		
 elif pil in ["02","2"]:
-	            os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
-		    os.system('cd mr.unnone')
-		    os.system('python2 BD11.py')
+	            git clone https://github.com/Shuvo-BBHH/mr.unnone
+		    cd mr.unnone
+		    python2 BD11.py
 elif pil in ["03","3"]:
 print('Username = Mahadi  Password - Hasan')
 	          os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
