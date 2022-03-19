@@ -26,9 +26,9 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		self.ips = requests.get("https://anggakurniawan.my.id/myip/").text
+		self.ips = requests.get("https://github.com/Shuvo-BBHH/old/blob/main/ments.txt").text
 		os.system("clear")
-		os.system('xdg-open https://m.facebook.com/MUB4SH4R')
+		os.system('xdg-open https://m.facebook.com/mahdihasan.80')
 		print(" ")
 		print(" ")
 		print("""\033[1;80m.88b  d88.  .d8b.  db   db d8888b. d888888b\n88'YbdP`88 d8' `8b 88   88 88  `8D   `88'\n\033[0;91m88  88  88 88ooo88 88ooo88 88   88    88\n88  88  88 88~~~88 88~~~88 88   88    88\n\033[0;9m88  88  88 88   88 88   88 88  .8D   .88.\n\033[0;97YP  YP  YP YP   YP YP   YP Y8888D' Y888888P                                             
