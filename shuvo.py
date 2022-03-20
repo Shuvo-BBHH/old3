@@ -74,12 +74,14 @@ print("""
 pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
 
 if pil in ["01","1"]:
+	try: 
 		    os.system('pkg install python2 -y')
                    
                     
                    
 	
 elif pil in ["02","2"]:
+	try: 
                      os.system('rm -rf FLAME-2K9')
                       git clone https://github.com/Naim75o/FLAME-2K9
                       cd FLAME-2K9
@@ -87,22 +89,28 @@ elif pil in ["02","2"]:
                       main()
 		
 elif pil in ["02","2"]:
-	            git clone https://github.com/Shuvo-BBHH/mr.unnone
-		    cd mr.unnone
-		    python2 BD11.py
+	try: 
+	           os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
+		    os.system('cd mr.unnone')
+		   os.system('python2 BD11.py')
 elif pil in ["03","3"]:
+	
 print('Username = Mahadi  Password - Hasan')
-	          os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
+	      try: 
+	           os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
 		  os.system('cd bdcluner11')
 		  os.system('python2 mahdi11.py')
 		
 elif pil in ["04","4"]:	
 	
 print('Username = Mahadi  Password - Hasan')
+             
+	try: 
 	       os.system('git clone https://github.com/Shuvo-BBHH/bdcluner11')
 		os.system('cd bdcluner11')
 		os.system('python2 Mahadi-new.py')
 elif pil in ["05","5"]:	
+	try: 
 	             os.system('git clone https://github.com/Shuvo-BBHH/mr.unnone')
 	             os.system('cd mr.unnone')
 	   	     os.system('python baba.py')
